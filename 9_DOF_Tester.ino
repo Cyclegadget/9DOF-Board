@@ -133,7 +133,7 @@ void loop(void)
   //delay(1000);
 
   if (curMillis - prevLedChase >= ChaseInterval) {
-    prevLedChase = millis(); S
+    prevLedChase = millis(); 
 
     switch (range) {
       case 0:
